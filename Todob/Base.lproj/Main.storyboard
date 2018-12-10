@@ -32,7 +32,13 @@
                             <outlet property="delegate" destination="xQP-Av-edg" id="ahZ-Ho-Bc8"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todob" id="Qhs-qe-tDV"/>
+                    <navigationItem key="navigationItem" title="Todob" id="Qhs-qe-tDV">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="5ga-hO-CfU">
+                            <connections>
+                                <action selector="addNewItem:" destination="xQP-Av-edg" id="gQu-of-h2b"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lGc-co-D6M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
